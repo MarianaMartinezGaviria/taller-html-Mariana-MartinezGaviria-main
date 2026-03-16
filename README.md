@@ -1,9 +1,7 @@
 # 🔮 Pokédex - Taller Evaluativo 1
 
-![Pokédex Futurista](https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png)
-
 ## 📋 Descripción
-Una Pokédex interactiva con diseño **futurista y neón** que consume la PokéAPI para mostrar información de Pokémon. Este proyecto fue desarrollado como parte del Taller Evaluativo 1 de Ingeniería Web.
+Este proyecto fue desarrollado como parte del Taller Evaluativo 1 de Ingeniería Web. El objetivo es aplicar de forma práctica los conocimientos adquiridos sobre HTML, CSS y JavaScript, utilizando APIs públicas para construir una mini aplicación web interactiva, través del consumo de datos externos.
 
 ### ✨ Características Principales
 - 🔍 **Búsqueda en tiempo real** de Pokémon por nombre o número
@@ -22,12 +20,21 @@ Una Pokédex interactiva con diseño **futurista y neón** que consume la PokéA
 | **CSS3** | Estilos, animaciones, grid, flexbox |
 | **JavaScript** | Lógica, consumo de API, manipulación DOM |
 | **PokéAPI** | Fuente de datos de Pokémon |
-| **Google Fonts** | Tipografías Orbitron y Montserrat |
-
-## 🎨 Diseño y Estilo
-- **Colores principales:** `#00d4ff` (azul neón) y `#7b2cbf` (púrpura)
-- **Tipografías:** Orbitron para títulos, Montserrat para textos
-- **Efectos:** Cristal, neón, gradientes, animaciones 3D
-- **Fondo:** Gradiente oscuro con partículas luminosas
 
 ## 📁 Estructura del Proyecto
+├── 📄 index.html # Página principal
+├── 📄 styles.css # Estilos y diseño
+├── 📄 script.js # Lógica y funcionalidad
+└── 📄 README.md # Documentación
+
+## 🚀 Cómo Ejecutar el Proyecto
+
+### Opción 1: Live Server (Recomendada)
+1. Abre el proyecto en **VS Code**
+2. Instala la extensión **"Live Server"**
+3. Haz clic derecho en `index.html`
+4. Selecciona **"Open with Live Server"**
+
+### Opción 2: Directo en el Navegador
+1. Navega hasta la carpeta del proyecto
+2. Haz doble clic en `index.html`

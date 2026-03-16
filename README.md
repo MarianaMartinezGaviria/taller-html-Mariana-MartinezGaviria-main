@@ -22,10 +22,10 @@ Este proyecto fue desarrollado como parte del Taller Evaluativo 1 de Ingeniería
 | **PokéAPI** | Fuente de datos de Pokémon |
 
 ## 📁 Estructura del Proyecto
-├── 📄 index.html # Página principal
-├── 📄 styles.css # Estilos y diseño
-├── 📄 script.js # Lógica y funcionalidad
-└── 📄 README.md # Documentación
+📄 index.html # Página principal
+📄 styles.css # Estilos y diseño
+📄 script.js # Lógica y funcionalidad
+📄 README.md # Documentación
 
 ## 🚀 Cómo Ejecutar el Proyecto
 

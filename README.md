@@ -38,3 +38,8 @@ Este proyecto fue desarrollado como parte del Taller Evaluativo 1 de Ingeniería
 ### Opción 2: Directo en el Navegador
 1. Navega hasta la carpeta del proyecto
 2. Haz doble clic en `index.html`
+
+## 🎮 Cómo Usar la Pokédex
+
+1. **Búsqueda por nombre:** Ejemplo: "pikachu", "charizard", "bulbasaur"
+2. **Búsqueda por número:** Ejemplo: "25", "4", "1"

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pokeDex</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Encabezado -->
+    <header>
+        <h1 class="titulo-header">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" 
+                 alt="Pokebola" 
+                 class="titulo-imagen">
+            pokeDex
+        </h1>
+        <p>Explora tu colección de Pokémon</p>
+    </header>
+
+    <!-- Buscador -->
+    <div class="buscador">
+        <input type="text" id="inputBuscar" placeholder="Nombre o código">
+        <button id="btnBuscar" class="btn btn-buscar">Buscar</button>
+        <button id="btnTodos" class="btn btn-secundario">Ver todos</button>
+    </div>
+    
+    <!-- Mensajes de estado -->
+    <div id="mensajes-container" class="mensajes-container">
+        <div id="error" class="mensaje error" hidden>
+            <span class="emoji">❌</span>
+            <span class="texto">Error</span>
+        </div>
+        
+        <div id="cargando" class="mensaje cargando" hidden>
+            <span class="emoji">🔄</span>
+            <span class="texto">Cargando Pokémon...</span>
+            <div class="pokeball-loader"></div>
+        </div>
+        
+        <div id="exito" class="mensaje exito" hidden>
+            <span class="emoji">✅</span>
+            <span class="texto">Pokémon encontrados</span>
+        </div>
+        
+        <div id="sin-resultados" class="mensaje sin-resultados" hidden>
+            <span class="emoji">😢</span>
+            <span class="texto">No se encontraron Pokémon</span>
+        </div>
+    </div>
+    
+    <!-- Lista de Pokémon -->
+    <div id="listaPokemon" class="lista"></div>
+
+   
+    <script src="script.js"></script>
+</body>
+</html>
